@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encomendar Bolos</title>
+</head>
+<body>
+
+  <header>
+<h1> Pães Doces e Bolos</h1>
+    <ul>
+      <li> <a href="../Index.html">Página Principal</a></li>
+      <li> <a href="Bolos.html">Encomendar Bolos</a></li>
+    </ul>
+
+  </header>
+
+  <main>
+  <h2>Encomendar Bolo</h2>
+
+  <form method="get">
+    Nome: <input autofocus type="text" name="nome" size="55" maxlength="35" placeholder="Informe o nome">
+
+    DDD( <input type="tel" name="ddd" size="1" maxlength="2" placeholder="DDD"> )
+
+    Telefone: <input  type="tel" name="telefone" size="15" maxlength="10"  placeholder="Telefone">
+
+
+  <br> 
+
+  <table border>
+    <caption>Bolos</caption>
+<tr>
+
+  <td> <img src="../Imagens/Bolo01.png" alt="Bolo de Chocolate" height="200"></td>
+  <td> <img src="../Imagens/Bolo02.png" alt="Bolo de Frutas" height="200"></td>
+  <td> <img src="../Imagens/Bolo03.png" alt="Bolo Misto" height="200"></td>
+
+</tr>
+<tr>
+  
+<th>Chocolate</th>
+<th>Frutas</th>
+<th>Misto</th>
+
+</tr>
+  </table border> 
+  <br>
+
+ Sabor: <select name="sabor" > 
+  <option value="null" selected="selected">Escolha...</option>
+  <option value="Choc"> Chocolate </option>
+  <option value="Frut"> Frutas </option>
+  <option value="Mis"> Misto </option>
+
+ </select>
+
+ Tipo: <input type="radio" name="tipo" value="sim" />Simples
+
+ <input type="radio" name="tipo" value="dec" />Decorado
+
+ <br> <br> 
+
+ Tamanho: <input type="number" name="tamanho" size="5" min="1" max="10" maxlength="2"> kg 
+ <input type="checkbox" name="tipo" value="die" />Diet?
+ <br> <br> 
+           
+  Observações <br>
+  <textarea name="observações" id="" cols="80" rows="3" placeholder="Observações sobre o Pedido"></textarea> 
+<br> <br> 
+
+<input type=submit value="Enviar Pedido"> <input type=reset value="Limpar"> 
+
+</form> 
+
+  </main>
+
+</body>
+</html>
