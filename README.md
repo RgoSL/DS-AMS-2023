@@ -14,7 +14,7 @@ Esta branch guarda as atividades da matéria de Design Digital.
 <br>
 
 ### 💻 Branch PW
-Esta branch guarda as atividades da matéria de Programação Web
+Esta branch guarda as atividades da matéria de Programação Web.
 - 💻 [Programação Web](https://github.com/RgoSL/DS-AMS-2023/tree/PW) <!-- ⬅️ LINK PARA A RESPECTIVA BRANCH -->
 <br>
 
